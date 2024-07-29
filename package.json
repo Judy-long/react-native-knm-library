@@ -26,5 +26,5 @@
     "type": "git",
     "url": "https://github.com/Judy-long/react-native-knm-library.git"
   },
-  "react-native": "src/index.js"
+  "react-native": "index.js"
 }
