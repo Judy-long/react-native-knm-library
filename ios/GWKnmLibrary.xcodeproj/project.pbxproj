@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1006DC842C55DF3A001AD7E2 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1006DC632C55DF39001AD7E2 /* Reachability.m */; };
+		1006DC852C55DF3A001AD7E2 /* GranwinBluetoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1006DC672C55DF39001AD7E2 /* GranwinBluetoothManager.m */; };
+		1006DC862C55DF3A001AD7E2 /* GWDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1006DC692C55DF39001AD7E2 /* GWDevice.m */; };
+		1006DC872C55DF3A001AD7E2 /* GranwinAPKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1006DC6D2C55DF39001AD7E2 /* GranwinAPKit.m */; };
+		1006DC882C55DF3A001AD7E2 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1006DC6F2C55DF39001AD7E2 /* GCDAsyncSocket.m */; };
+		1006DC892C55DF3A001AD7E2 /* NSArray+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1006DC722C55DF39001AD7E2 /* NSArray+Tools.m */; };
+		1006DC8A2C55DF3A001AD7E2 /* GYLocalConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 1006DC742C55DF39001AD7E2 /* GYLocalConnect.m */; };
+		1006DC8B2C55DF3A001AD7E2 /* UIAlertController+showOnWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1006DC752C55DF3A001AD7E2 /* UIAlertController+showOnWindow.m */; };
+		1006DC8C2C55DF3A001AD7E2 /* GWCallBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1006DC772C55DF3A001AD7E2 /* GWCallBack.m */; };
+		1006DC8D2C55DF3A001AD7E2 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1006DC782C55DF3A001AD7E2 /* GCDAsyncUdpSocket.m */; };
+		1006DC8E2C55DF3A001AD7E2 /* MNNetworkStatusHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1006DC7B2C55DF3A001AD7E2 /* MNNetworkStatusHelper.m */; };
+		1006DC8F2C55DF3A001AD7E2 /* GYDESHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1006DC7D2C55DF3A001AD7E2 /* GYDESHelper.m */; };
+		1006DC902C55DF3A001AD7E2 /* GYAddDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1006DC7E2C55DF3A001AD7E2 /* GYAddDeviceManager.m */; };
+		1006DC912C55DF3A001AD7E2 /* GWKnmLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1006DC812C55DF3A001AD7E2 /* GWKnmLibrary.m */; };
+		1006DC922C55DF3A001AD7E2 /* MNTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1006DC822C55DF3A001AD7E2 /* MNTestModel.m */; };
+		1006DC932C55DF3A001AD7E2 /* GWGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1006DC832C55DF3A001AD7E2 /* GWGCDTimer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58B511D91A9E6C8500147676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1006DC632C55DF39001AD7E2 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		1006DC642C55DF39001AD7E2 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		1006DC652C55DF39001AD7E2 /* UIAlertController+showOnWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+showOnWindow.h"; sourceTree = "<group>"; };
+		1006DC662C55DF39001AD7E2 /* MNTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNTestModel.h; sourceTree = "<group>"; };
+		1006DC672C55DF39001AD7E2 /* GranwinBluetoothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GranwinBluetoothManager.m; sourceTree = "<group>"; };
+		1006DC682C55DF39001AD7E2 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		1006DC692C55DF39001AD7E2 /* GWDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWDevice.m; sourceTree = "<group>"; };
+		1006DC6A2C55DF39001AD7E2 /* GYLocalConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYLocalConnect.h; sourceTree = "<group>"; };
+		1006DC6B2C55DF39001AD7E2 /* GranwinBluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GranwinBluetoothManager.h; sourceTree = "<group>"; };
+		1006DC6C2C55DF39001AD7E2 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		1006DC6D2C55DF39001AD7E2 /* GranwinAPKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GranwinAPKit.m; sourceTree = "<group>"; };
+		1006DC6E2C55DF39001AD7E2 /* MNNetworkStatusHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNNetworkStatusHelper.h; sourceTree = "<group>"; };
+		1006DC6F2C55DF39001AD7E2 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		1006DC702C55DF39001AD7E2 /* GYDESHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYDESHelper.h; sourceTree = "<group>"; };
+		1006DC712C55DF39001AD7E2 /* GWGCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWGCDTimer.h; sourceTree = "<group>"; };
+		1006DC722C55DF39001AD7E2 /* NSArray+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Tools.m"; sourceTree = "<group>"; };
+		1006DC732C55DF39001AD7E2 /* GWKnmLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKnmLibrary.h; sourceTree = "<group>"; };
+		1006DC742C55DF39001AD7E2 /* GYLocalConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYLocalConnect.m; sourceTree = "<group>"; };
+		1006DC752C55DF3A001AD7E2 /* UIAlertController+showOnWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+showOnWindow.m"; sourceTree = "<group>"; };
+		1006DC762C55DF3A001AD7E2 /* GWDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWDevice.h; sourceTree = "<group>"; };
+		1006DC772C55DF3A001AD7E2 /* GWCallBack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWCallBack.m; sourceTree = "<group>"; };
+		1006DC782C55DF3A001AD7E2 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		1006DC792C55DF3A001AD7E2 /* GYAddDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYAddDeviceManager.h; sourceTree = "<group>"; };
+		1006DC7A2C55DF3A001AD7E2 /* GWCallBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWCallBack.h; sourceTree = "<group>"; };
+		1006DC7B2C55DF3A001AD7E2 /* MNNetworkStatusHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNNetworkStatusHelper.m; sourceTree = "<group>"; };
+		1006DC7C2C55DF3A001AD7E2 /* GranwinAPKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GranwinAPKit.h; sourceTree = "<group>"; };
+		1006DC7D2C55DF3A001AD7E2 /* GYDESHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYDESHelper.m; sourceTree = "<group>"; };
+		1006DC7E2C55DF3A001AD7E2 /* GYAddDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYAddDeviceManager.m; sourceTree = "<group>"; };
+		1006DC7F2C55DF3A001AD7E2 /* NSArray+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Tools.h"; sourceTree = "<group>"; };
+		1006DC802C55DF3A001AD7E2 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1006DC812C55DF3A001AD7E2 /* GWKnmLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKnmLibrary.m; sourceTree = "<group>"; };
+		1006DC822C55DF3A001AD7E2 /* MNTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNTestModel.m; sourceTree = "<group>"; };
+		1006DC832C55DF3A001AD7E2 /* GWGCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWGCDTimer.m; sourceTree = "<group>"; };
+		134814201AA4EA6300B7C361 /* libGWKnmLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGWKnmLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134814211AA4EA7D00B7C361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134814201AA4EA6300B7C361 /* libGWKnmLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B511D21A9E6C8500147676 = {
+			isa = PBXGroup;
+			children = (
+				1006DC682C55DF39001AD7E2 /* GCDAsyncSocket.h */,
+				1006DC6F2C55DF39001AD7E2 /* GCDAsyncSocket.m */,
+				1006DC6C2C55DF39001AD7E2 /* GCDAsyncUdpSocket.h */,
+				1006DC782C55DF3A001AD7E2 /* GCDAsyncUdpSocket.m */,
+				1006DC7C2C55DF3A001AD7E2 /* GranwinAPKit.h */,
+				1006DC6D2C55DF39001AD7E2 /* GranwinAPKit.m */,
+				1006DC6B2C55DF39001AD7E2 /* GranwinBluetoothManager.h */,
+				1006DC672C55DF39001AD7E2 /* GranwinBluetoothManager.m */,
+				1006DC7A2C55DF3A001AD7E2 /* GWCallBack.h */,
+				1006DC772C55DF3A001AD7E2 /* GWCallBack.m */,
+				1006DC762C55DF3A001AD7E2 /* GWDevice.h */,
+				1006DC692C55DF39001AD7E2 /* GWDevice.m */,
+				1006DC712C55DF39001AD7E2 /* GWGCDTimer.h */,
+				1006DC832C55DF3A001AD7E2 /* GWGCDTimer.m */,
+				1006DC732C55DF39001AD7E2 /* GWKnmLibrary.h */,
+				1006DC812C55DF3A001AD7E2 /* GWKnmLibrary.m */,
+				1006DC792C55DF3A001AD7E2 /* GYAddDeviceManager.h */,
+				1006DC7E2C55DF3A001AD7E2 /* GYAddDeviceManager.m */,
+				1006DC702C55DF39001AD7E2 /* GYDESHelper.h */,
+				1006DC7D2C55DF3A001AD7E2 /* GYDESHelper.m */,
+				1006DC6A2C55DF39001AD7E2 /* GYLocalConnect.h */,
+				1006DC742C55DF39001AD7E2 /* GYLocalConnect.m */,
+				1006DC6E2C55DF39001AD7E2 /* MNNetworkStatusHelper.h */,
+				1006DC7B2C55DF3A001AD7E2 /* MNNetworkStatusHelper.m */,
+				1006DC662C55DF39001AD7E2 /* MNTestModel.h */,
+				1006DC822C55DF3A001AD7E2 /* MNTestModel.m */,
+				1006DC7F2C55DF3A001AD7E2 /* NSArray+Tools.h */,
+				1006DC722C55DF39001AD7E2 /* NSArray+Tools.m */,
+				1006DC802C55DF3A001AD7E2 /* PrefixHeader.pch */,
+				1006DC642C55DF39001AD7E2 /* Reachability.h */,
+				1006DC632C55DF39001AD7E2 /* Reachability.m */,
+				1006DC652C55DF39001AD7E2 /* UIAlertController+showOnWindow.h */,
+				1006DC752C55DF3A001AD7E2 /* UIAlertController+showOnWindow.m */,
+				134814211AA4EA7D00B7C361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B511DA1A9E6C8500147676 /* GWKnmLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "GWKnmLibrary" */;
+			buildPhases = (
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GWKnmLibrary;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libGWKnmLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B511D31A9E6C8500147676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "GWKnmLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B511DA1A9E6C8500147676 /* GWKnmLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B511D71A9E6C8500147676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1006DC8F2C55DF3A001AD7E2 /* GYDESHelper.m in Sources */,
+				1006DC8E2C55DF3A001AD7E2 /* MNNetworkStatusHelper.m in Sources */,
+				1006DC872C55DF3A001AD7E2 /* GranwinAPKit.m in Sources */,
+				1006DC8A2C55DF3A001AD7E2 /* GYLocalConnect.m in Sources */,
+				1006DC932C55DF3A001AD7E2 /* GWGCDTimer.m in Sources */,
+				1006DC882C55DF3A001AD7E2 /* GCDAsyncSocket.m in Sources */,
+				1006DC902C55DF3A001AD7E2 /* GYAddDeviceManager.m in Sources */,
+				1006DC842C55DF3A001AD7E2 /* Reachability.m in Sources */,
+				1006DC8B2C55DF3A001AD7E2 /* UIAlertController+showOnWindow.m in Sources */,
+				1006DC912C55DF3A001AD7E2 /* GWKnmLibrary.m in Sources */,
+				1006DC862C55DF3A001AD7E2 /* GWDevice.m in Sources */,
+				1006DC8D2C55DF3A001AD7E2 /* GCDAsyncUdpSocket.m in Sources */,
+				1006DC892C55DF3A001AD7E2 /* NSArray+Tools.m in Sources */,
+				1006DC852C55DF3A001AD7E2 /* GranwinBluetoothManager.m in Sources */,
+				1006DC922C55DF3A001AD7E2 /* MNTestModel.m in Sources */,
+				1006DC8C2C55DF3A001AD7E2 /* GWCallBack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58B511ED1A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B511EE1A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B511F01A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GranwinAPKit",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = GWKnmLibrary;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GranwinAPKit",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = GWKnmLibrary;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "GWKnmLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "GWKnmLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+}

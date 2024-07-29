@@ -1,0 +1,30 @@
+
+{
+  "name": "react-native-knm-library",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "android",
+    "ios",
+    "index.js",
+    "react-native.config.js",
+    "react-native-knm-library.podspec"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "",
+  "license": "",
+  "peerDependencies": {
+    "react-native": "^0.72.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Judy-long/react-native-knm-library.git"
+  },
+  "react-native": "src/index.js"
+}
